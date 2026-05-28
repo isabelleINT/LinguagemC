@@ -2,16 +2,23 @@
 
 int main(){
 
-    int i,num,res;
+    int i,j;
 
-        printf("Digite um número para fazer a tabuada e tecle ENTER\n");
-        scanf("%d",&num);
+        i = 1;
+        j = 0;
 
-        i = 0;
-    while (i <= 10){
+        while ( i <= 10 ){
 
-        res = num * i;
-        printf("%d x %d = %d\n",num,i,res);
-        i++;
-    }
+            while ( j <= 10 ){
+
+                printf("%d x %d = %d\n",i,j,(i*j));
+
+                j++;
+            }
+            printf("\n");
+            j = 0;
+            i++;
+        }
+return 0;
+
 }    
