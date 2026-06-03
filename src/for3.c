@@ -1,21 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
 
-    int b,e,t,i;
+    int i,num,res;
 
-    printf("Digite um número para a base e tecle ENTER\n");
-    scanf("%d", &b);
+        printf("Digite um número para fazer a tabuada e tecle ENTER\n");
+        scanf("%d",&num);
 
-    printf("Digite um número para o expoente e tecle ENTER\n");
-    scanf("%d", &e);
+    i = 0;
+    while (i <= 10){
 
-    t = b;
-    for(i = 1 ; i < e ; i++){
-        t*=b ;
+        res = num * i;
+        printf("%d x %d = %d\n",num,i,res);
+        i++;
     }
-    printf("O resultado é %d\n",t);
     
 return 0;
 

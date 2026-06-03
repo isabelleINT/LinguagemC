@@ -38,3 +38,67 @@ int main()
     return 0;
 }
 ```
+#### Demonstração de uma estrtura de Desvio de Fluxo Multiplo
+
+``` c
+#include <stdio.h>
+
+int main()
+{
+    int ano;
+    printf("Digite um ano e tecle ENTER\n");
+    scanf("%d",&ano);
+
+    if ( ano % 4 == 0 ){
+        printf(" O ano %d é bissexto!\n", ano);
+    }
+
+    else {
+    printf("O ano %d não é bissexto!\n", ano);
+    }
+    
+    return 0;
+}
+```
+#### Demonstração de estruturas de Repetição While e For
+
+``` c
+#include <stdio.h>
+
+int main()
+{
+    int i,num,res;
+
+        printf("Digite um número para fazer a tabuada e tecle ENTER\n");
+        scanf("%d",&num);
+
+    i = 0;
+    while (i <= 10)
+    {
+        res = num * i;
+        printf("%d x %d = %d\n",num,i,res);
+        i++;
+    }   
+return 0;
+}
+``` 
+``` c
+#include <stdio.h>
+
+int main()
+{
+    int i,num,res;
+
+        printf("Digite um número para fazer a tabuada e tecle ENTER\n");
+        scanf("%d",&num);
+
+    i = 0;
+    while (i <= 10)
+    {
+        res = num * i;
+        printf("%d x %d = %d\n",num,i,res);
+        i++;
+    }
+return 0;
+}
+```
