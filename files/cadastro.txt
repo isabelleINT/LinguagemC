@@ -1,0 +1,15 @@
+Nome: ISABELLE
+Sobrenome: BARBOSA
+E-mail: ISABRBOSA
+Idade: 16
+==================================================
+Nome: HELOISA
+Sobrenome: BARBOSA
+E-mail: HELOBARBOSA
+Idade: 10
+==================================================
+Nome: SIMONE
+Sobrenome: BARBOSA
+E-mail: SIHBARBOSA
+Idade: 34
+==================================================
