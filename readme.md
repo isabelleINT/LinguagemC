@@ -31,6 +31,7 @@ Vamos listar os itens trabalhados neste repositório:
 
 ``` c
 #include<stdio.h>
+
 int main()
 {
     int x = 10;
