@@ -1,0 +1,40 @@
+
+Nome do Cliente: Isabelle
+
+Vendedor: Gabriel
+
+Produto: Notebook
+
+Preço desse Produto: 5000.00
+
+Parcelas: 7
+
+Preço Final: 714.29
+
+==================================================
+Nome do Cliente: Gabriel
+
+Vendedor: Isabelle
+
+Produto: Notebook
+
+Preço desse Produto: 7000.00
+
+Parcelas: 0
+
+Preço Final: 6300.00
+
+==================================================
+Nome do Cliente: Gabriel
+
+Vendedor: Isabelle
+
+Produto: Notebook
+
+Preço desse Produto: 7000.00
+
+Parcelas: 7
+
+Preço Final: 1150.00
+
+==================================================
